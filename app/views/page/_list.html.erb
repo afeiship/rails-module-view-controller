@@ -1,0 +1,9 @@
+<div class="list">
+  <% list.each do |item| %>
+    <div class="item">
+      <h2><%= item[:title] %></h2>
+      <div class="bd"><%= item[:desc] %></div>
+      <footer><%= item[:info] %></footer>
+    </div>
+  <% end %>
+</div>
